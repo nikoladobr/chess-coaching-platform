@@ -3,8 +3,8 @@ import { Crown, Menu, X } from "lucide-react";
 
 const navigation = [
   { label: "Početna", href: "#pocetna" },
-  { label: "Časovi", href: "#casovi" },
   { label: "O nama", href: "#o-nama" },
+  { label: "Časovi", href: "#casovi" },
   { label: "Kontakt", href: "#kontakt" },
 ];
 
@@ -12,8 +12,8 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="relative z-50 border-b border-black/5 bg-white">
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
+    <header className="sticky top-0 z-50 border-b border-black/5 bg-white/95 backdrop-blur-md">
+      <div className="mx-auto flex h-20 w-full items-center justify-between px-6 lg:px-10 2xl:px-16">
 
         {/* Logo */}
         <a href="#pocetna" className="flex items-center gap-3">

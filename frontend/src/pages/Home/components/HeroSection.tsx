@@ -20,7 +20,7 @@ export default function HeroSection() {
       </div>
 
       {/* Hero content */}
-      <div className="mx-auto flex min-h-[620px] max-w-7xl items-center px-6 py-24 lg:px-10">
+      <div className="mx-auto flex min-h-[620px] max-w-6xl items-center px-6 py-24 lg:px-6">
         <div className="max-w-2xl">
 
           {/* Eyebrow text */}
